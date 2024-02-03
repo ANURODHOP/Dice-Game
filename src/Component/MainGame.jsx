@@ -29,7 +29,7 @@ const MainGame = () => {
         
         if(newRandomNum === selectedNum) {
             changeScore((prevScore)=>{
-                return prevScore+10;
+                return prevScore+5;
             })
         } else {
             changeScore((prevScore)=>{
@@ -37,7 +37,7 @@ const MainGame = () => {
             })
         }
 
-        setSelectedNum(undefined)
+        setSelectedNum()
     }
 
 

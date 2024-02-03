@@ -7,7 +7,7 @@ const Rules = ({active}) => {
             <span>Select Any number</span>
             <span>Click on Dice image</span>
             <span>After clicking on Dice of selected number is equal to the
-                Dice number then 10 points will be added or else 0.5 point is deducted.
+                Dice number then 5 points will be added or else 0.5 point is deducted.
             </span>
         </div>
     )
