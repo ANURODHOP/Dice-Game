@@ -36,6 +36,8 @@ const MainGame = () => {
                 return prevScore-0.5;
             })
         }
+
+        setSelectedNum(undefined)
     }
 
 

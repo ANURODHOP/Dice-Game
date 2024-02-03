@@ -8,15 +8,9 @@ const Options = ({totalChoices,error,newError, setSelectedNum}) => {
                 {
                     totalChoices.map((element, i) => {
                         return <button key={i}
-                            onFocus={() => {
+                            onClick={() => {
                                 setSelectedNum(()=>element)
                                 newError("")
-                            }}
-
-                            onBlur={() => {
-                                setTimeout(() => {
-                                    setSelectedNum()
-                                },300)
                             }}
                         >{element}</button> 
                     })
